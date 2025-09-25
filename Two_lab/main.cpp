@@ -9,14 +9,14 @@ int main()
     printf("Введите x: ");
     scanf("%lf", &x);
 
-    if (x > 4)
-        y = 1 / x;
-    else if (x > 2 && x < 5)
-        y = exp(-x);
-    else if (x > -1)
-        y = x * x;
+    if (x > 2)
+        y = exp(sqrt(x));
+    else if (2 >= x && x > 1)
+        y = pow(cos(x), 2);
+    else if (1 >= x && x > 0.5)
+        y = log10(20 * x);
     else
-        y = fabs(x - 1) / (2 * x);
+        y = exp(0.2 * x);
 
     printf("y =%6.2lf\n", y);
     return 0;

@@ -20,8 +20,8 @@ int main()
     y = (exp(x - 2.7) + 3) / (x + 1.3);
     z = (y + s + a) / (y * y + s);
 
-    printf("f1 = %.6lf\n", y);
-    printf("f2 = %.6lf\n", z);
+    printf("y = %.6lf\n", y);
+    printf("z = %.6lf\n", z);
 
     return 0;
 }

@@ -32,15 +32,15 @@ int main()
 
         sum += znak * term;
 
-        printf("Проход %2d: знак = %+d, степень = (%.6lf)^%d = %.6lf, сумма = %.6lf\n",
-               i, znak, base, i, term, sum);
+        // printf("Проход %2d: знак = %+d, степень = (%.6lf)^%d = %.6lf, сумма = %.6lf\n",
+        //       i, znak, base, i, term, sum);
 
         znak = -znak; // смена знака
     }
 
     double y = -5 * x + 6 * sum;
 
-    printf("Окончательное значение y = %.6lf\n", y);
+    printf("y = %.6lf\n", y);
 
     return 0;
 }

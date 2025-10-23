@@ -1,8 +1,5 @@
-main.exe
-main.ilk
-main.obj
-main.pdb
-vc140.pdb
+*.exe
+*.ilk
+*.pdb
 .vscode
-func.obj
-functions.obj
+*.obj

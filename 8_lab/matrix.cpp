@@ -1,6 +1,6 @@
 #include "matrix.h"
 
-void inputMatrix(double* arr, int N, int M)
+void inputMatrix(double *arr, int N, int M)
 {
     cout << "\nВведите элементы матрицы (" << N << "x" << M << "):\n";
 
@@ -8,12 +8,12 @@ void inputMatrix(double* arr, int N, int M)
     {
         for (int j = 0; j < M; j++)
         {
-            cin >> *(arr + i * M + j); 
+            cin >> *(arr + i * M + j);
         }
     }
 }
 
-void computeColumnProducts(double* arr, int N, int M, double* result)
+void computeColumnProducts(double *arr, int N, int M, double *result)
 {
     for (int col = 0; col < M; col++)
     {
@@ -28,7 +28,7 @@ void computeColumnProducts(double* arr, int N, int M, double* result)
     }
 }
 
-void printMatrix(const double* arr, int N, int M)
+void printMatrix(const double *arr, int N, int M)
 {
     for (int i = 0; i < N; i++)
     {
@@ -40,7 +40,7 @@ void printMatrix(const double* arr, int N, int M)
     }
 }
 
-void printArray(const double* arr, int size, char name)
+void printArray(const double *arr, int size, char name)
 {
     cout << name << ": ";
     for (int i = 0; i < size; i++)

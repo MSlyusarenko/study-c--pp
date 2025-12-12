@@ -3,3 +3,5 @@
 *.pdb
 .vscode
 *.obj
+students_out.txt
+students.txt
